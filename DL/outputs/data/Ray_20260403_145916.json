@@ -1,0 +1,205 @@
+{
+  "timestamp": "2026-04-03T14:59:16.085992",
+  "client": {
+    "name": "Ray",
+    "gender": "男性",
+    "age": 35,
+    "height": 180.0,
+    "weight": 80.0,
+    "date": "2026-04-03",
+    "notes": ""
+  },
+  "analysis": {
+    "front": {
+      "shoulder_asymmetry": {
+        "grade": "正常範圍",
+        "description": "肩部左右高度接近對稱，未觀察到明顯高低差異。",
+        "deduction": 0,
+        "dy_norm": 0.0263,
+        "side": ""
+      },
+      "pelvic_asymmetry": {
+        "grade": "正常範圍",
+        "description": "骨盆左右高度接近對稱，未觀察到明顯骨盆傾斜傾向。",
+        "deduction": 0,
+        "dy_norm": 0.0,
+        "side": ""
+      },
+      "balance_note": "正面觀察整體左右對稱性良好，未見明顯偏差。"
+    },
+    "back": {
+      "shoulder_asymmetry": {
+        "grade": "正常範圍",
+        "description": "肩部左右高度接近對稱，未觀察到明顯高低差異。",
+        "deduction": 0,
+        "dy_norm": 0.0241,
+        "side": ""
+      },
+      "pelvic_asymmetry": {
+        "grade": "正常範圍",
+        "description": "骨盆左右高度接近對稱，未觀察到明顯骨盆傾斜傾向。",
+        "deduction": 0,
+        "dy_norm": 0.0069,
+        "side": ""
+      },
+      "limit_note": "背面偵測地標信心有限，背面分析結果主要用於確認正面觀察，建議以正面與側面為主要參考依據。"
+    },
+    "left": {
+      "side": "left",
+      "cervical_angle": {
+        "angle": 0.7,
+        "grade": "接近中立",
+        "description": "頸椎傾斜角約 0.7°，頸部排列接近中立位。",
+        "deduction": 0
+      },
+      "forward_shoulder_angle": {
+        "angle": 2.9,
+        "grade": "正常或輕微",
+        "description": "前傾肩角（FSA）約 2.9°，肩部位置接近正常對位。",
+        "deduction": 0,
+        "c7_approx": [
+          593,
+          294
+        ]
+      },
+      "pelvic_tilt_angle": {
+        "angle": 0.0,
+        "grade": "接近中立",
+        "description": "骨盆傾斜角估約 0.0°，骨盆位置觀察接近中立。",
+        "deduction": 0,
+        "limit_note": "靜態 2D 估算，具固有限制，僅供教練參考。"
+      },
+      "knee_angle": {
+        "angle": 175.7,
+        "grade": "接近正常",
+        "description": "膝關節角度約 175.7°，未觀察到明顯膝過伸傾向。",
+        "deduction": 0
+      },
+      "forward_head": {
+        "grade": "接近中立",
+        "description": "頭部位置觀察接近中立，未顯示明顯前引傾向。",
+        "deduction": 0,
+        "offset_ratio": -0.0046
+      },
+      "_lm_corrected": {
+        "ear_corrected": [
+          594,
+          154
+        ],
+        "acromion": [
+          592,
+          314
+        ],
+        "shoulder_raw": [
+          617,
+          328
+        ],
+        "hip": [
+          617,
+          748
+        ],
+        "knee": [
+          609,
+          1014
+        ],
+        "ankle": [
+          621,
+          1277
+        ],
+        "debug": "ear_raw=(595, 156) ear_corrected=(594, 154) sh_raw=(617, 328) acromion=(592, 314) ear_vis=1.00 sh_vis=1.00 | blended_good(vis=1.00)"
+      }
+    },
+    "right": {
+      "side": "right",
+      "cervical_angle": {
+        "angle": 23.4,
+        "grade": "明顯前傾",
+        "description": "頸椎傾斜角約 23.4°，顯示明顯頭部前引傾向，可能與長時間低頭使用3C或胸椎活動度不足有關。",
+        "deduction": 10
+      },
+      "forward_shoulder_angle": {
+        "angle": 69.4,
+        "grade": "明顯圓肩傾向",
+        "description": "前傾肩角（FSA）約 69.4°，顯示肩部前移傾向，可能呈現圓肩姿勢。這通常與胸肌緊繃及上背控制不足有關。",
+        "deduction": 10,
+        "c7_approx": [
+          542,
+          311
+        ]
+      },
+      "pelvic_tilt_angle": {
+        "angle": 0.7,
+        "grade": "接近中立",
+        "description": "骨盆傾斜角估約 0.7°，骨盆位置觀察接近中立。",
+        "deduction": 0,
+        "limit_note": "靜態 2D 估算，具固有限制，僅供教練參考。"
+      },
+      "knee_angle": {
+        "angle": 177.8,
+        "grade": "接近正常",
+        "description": "膝關節角度約 177.8°，未觀察到明顯膝過伸傾向。",
+        "deduction": 0
+      },
+      "forward_head": {
+        "grade": "明顯前引",
+        "description": "側面觀察顯示明顯頭部前引傾向，頸椎可能承受較大壓力，建議改善頸部深層肌肉控制。",
+        "deduction": 10,
+        "offset_ratio": -0.1519
+      },
+      "_lm_corrected": {
+        "ear_corrected": [
+          559,
+          179
+        ],
+        "acromion": [
+          494,
+          329
+        ],
+        "shoulder_raw": [
+          519,
+          339
+        ],
+        "hip": [
+          514,
+          757
+        ],
+        "knee": [
+          513,
+          1038
+        ],
+        "ankle": [
+          502,
+          1299
+        ],
+        "debug": "ear_raw=(557, 182) ear_corrected=(559, 179) sh_raw=(519, 339) acromion=(494, 329) ear_vis=1.00 sh_vis=1.00 | blended_good(vis=1.00)"
+      }
+    }
+  },
+  "score": {
+    "score": 70,
+    "label": "輕度不平衡傾向",
+    "category_description": "存在少數輕度姿勢偏差，建議針對性訓練改善。",
+    "total_deduction": 30,
+    "breakdown": [
+      {
+        "source": "右側",
+        "description": "頸椎傾斜角約 23.4°，顯示明顯頭部前引傾向，可能與長時間低頭使用3C或胸椎活動度不足有關。",
+        "deduction": 10,
+        "grade": "明顯前傾"
+      },
+      {
+        "source": "右側",
+        "description": "前傾肩角（FSA）約 69.4°，顯示肩部前移傾向，可能呈現圓肩姿勢。這通常與胸肌緊繃及上背控制不足...",
+        "deduction": 10,
+        "grade": "明顯圓肩傾向"
+      },
+      {
+        "source": "右側",
+        "description": "側面觀察顯示明顯頭部前引傾向，頸椎可能承受較大壓力，建議改善頸部深層肌肉控制。",
+        "deduction": 10,
+        "grade": "明顯前引"
+      }
+    ],
+    "note": "本分數為健身教練內部參考指標，非醫療評分。"
+  }
+}
